@@ -24,7 +24,7 @@ function numbers(){
 
 var stuff = ["apples","bananas","fish","corn"];
 shop(stuff);
-//shopping is just a caseholder for whatever you are passing through when calling it
+//shopping is just a placeholder for whatever you are passing through when calling it
 function shop(shopping){
 //if the var count is in the for loop then it will get put back to zero
   var count = 0;
