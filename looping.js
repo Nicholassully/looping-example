@@ -38,7 +38,7 @@ function shop(shopping){
   return count;
 }
 
-var baskest = ["apples","bananas","fish","corn"], "bananas"));
+var basket = ["apples","bananas","bananas","bananas","fish","corn"];
 
 function shop(shopping,nameOfItem){
 //if the var count is in the for loop then it will get put back to zero
@@ -52,3 +52,4 @@ function shop(shopping,nameOfItem){
 //this kicks out the result of the for loop
   return count;
 }
+shop(basket."bananas");
