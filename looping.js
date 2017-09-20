@@ -52,4 +52,5 @@ function shop(shopping,nameOfItem){
 //this kicks out the result of the for loop
   return count;
 }
+//this calls the function and looks for just bananas
 shop(basket."bananas");
