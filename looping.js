@@ -54,3 +54,18 @@ function shop(shopping,nameOfItem){
 }
 //this calls the function and looks for just bananas
 shop(basket."bananas");
+
+// sort the array from lowest to highest
+function sort(arr){
+  const length = arr.length;
+  for(let i = 0; i <length; i++){
+    for (let j = i + 1; j<length; j++){
+      if (arr[j] > arr[i]){
+        const temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+      }
+    }
+  }
+  return arr;
+}
